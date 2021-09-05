@@ -1,0 +1,21 @@
+Project Name: Word Counter
+Author: Tyler Smith
+Class: CS 315
+
+Purpose: This program reads a text file in from the standard input.
+	 The program will then print the words in alphabetical order.
+         After the words are printed in alphabetical order,
+	 they are then printed from greatest occurrences to least occurrences.
+         This allows the user to see how many times each word is used.
+
+How it Works: The program reads a text file in from the standard input.
+              It discards punctuation and spacing, except for an underscore.
+	      If a word has punctuation, the program splits the word into two.
+	      These words are then inserted into a hash table to easily keep track of each
+	      word and the amount of times they are used. In case two different words have
+              the same hash value, a linked list is kept to hold those words.
+              The words are then sorted both alphabetically and numerically using quick sort.
+	      After being sorted, the words are printed first alphabetically with their word count,
+	      and then numerically with their word count.
+
+How to Compile: make run
