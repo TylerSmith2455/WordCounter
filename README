@@ -1,6 +1,5 @@
 Project Name: Word Counter
 Author: Tyler Smith
-Class: CS 315
 
 Purpose: This program reads a text file in from the standard input.
 	 The program will then print the words in alphabetical order.
